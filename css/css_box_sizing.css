@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.div1{
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+}
+
+.div2{
+  width: 300px;
+  height: 150px;
+  background-color: tomato;
+  padding: 75px;
+  border: 10px solid red;
+}

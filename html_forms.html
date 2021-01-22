@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Forms</title>
+</head>
+<body>
+  <!-- form tag=represents the form elemnt;it will tell the browser thet it will be the start of a form -->
+<!-- action attribute;will tell the number ,where your data should go -->
+<!-- mehod;is how your data is collected -->
+  <form action="#" method="#">
+
+    <fieldset>
+      <div>
+        <!-- name= for the data, connected to your database -->
+          <label for ="first_name">First Name:
+              <input type="text"name="first_name"id="first_name">
+<!-- nameはdatabaseに繋がっている。idはlabelとコネクトしている。 -->
+<!-- idは一つだけ。for the element,or to connevt to the label。should be unique -->
+          </label>
+
+          <label for="Lasat_name">Last Name:
+              <input type="text"name="last_name"id="last_name">
+
+          </label>
+      </div>
+
+      <!-- Email Field -->
+    <div>
+      <label for="email">Email:
+        <input type="text"name="email"id="email"require>
+
+      </label>
+    </div>
+    <!-- password Field -->
+    <div>
+      <label for="username">Username:
+        <input type="text" name="usesrname" id="username">
+      </label>
+      <label for="password">Password:
+        <input type="text" name="password" id="password">
+
+      </label>
+    </div>
+  </fieldset>
+    <br>
+    <!-- Text Area -->
+    <div>
+      <p>Comments</p>
+      <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    </div>
+
+    <!-- Radio Buttons -->
+    <!-- RAdio Buttons syould always have the same but diferent values -->
+    <!-- Radio buttons -->
+    <!-- 以下、name=genreの時は、RBが一つしか選択できない。 -->
+    <!-- idの部分を -->
+    <fieldset>
+    <div>
+      <p>Please select your favorite music genre</p>
+      <input type="radio" name="genre" value="rock">Rock
+      <input type="radio" name="genre" value="pop">Pop
+      <input type="radio" name="genre" value="edm">EDM
+      <input type="radio" name="genre" value="classical">Classical
+      <input type="radio" name="genre" value="jass">Jazz
+    </div>
+
+    <!-- checkbox -->
+    <div>
+      <p>Please select your favorite food</p>
+      <input type="checkbox" name="genre" value="ramen">Ramen
+      <input type="checkbox" name="genre" value="sushi">Sushi
+      <input type="checkbox" name="genre" value="stake">Stake
+      <input type="checkbox" name="genre" value="burger">Burger
+    </div>
+
+    <!-- Dropdown list -->
+    <!-- it can only select 1 option -->
+    <div>
+      <p>What is your device?</p>
+      <select name="device">
+        <option disabled selected>--Select Your Device--</option>
+        <option value="macbook_pro">Macbook Pro</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+
+      </select>
+    </div>
+    <br>
+
+    <!-- Multiple Select Box -->
+  
+    <div>
+      <p>what are instruments that you plat?</p>
+      <!-- when choose multiple options, click CMD then select or CTRL then select -->
+      <select name="instruments"></select>
+    <option value="guiter">Guiter</option>
+    <option value="flute">Flute</option>
+    <option value="violin">Violin</option>
+    <option value="drums">Drums</option>
+    </div>
+
+  </fieldset>
+<!-- File Input -->
+<div>
+  <p>Uoload your image here</p>
+  <input type="file"name="upload_image">
+</div>
+<br>
+
+<!-- 以下、どちらのボタンでも良い。 -->
+<!-- 1 Submit Button -->
+<div>
+  <input type="text"value="Submit"name="submit">
+</div>
+
+<!-- 2 Button -->
+<div>
+  <button></button>
+</div>
+
+
+
+</form>
+  <br>
+
+  
+  <br>
+
+</body>
+</html>

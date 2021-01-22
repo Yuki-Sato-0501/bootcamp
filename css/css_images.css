@@ -1,0 +1,25 @@
+div{
+  height: 680px;
+  width: 100%;
+}
+
+.div1{
+  /* (..)はCSSフォルダから一旦出るよ */
+  background-image: url(../image/scrambledegg.jpeg);
+   /* 画像１枚でフルスクリーン */
+  background-size: cover;
+  /* 縦横比を保持して画像が全て表示される */
+  background-size: contain;
+  /* firsr value is width, while second value ie height 画面いっぱいに複数枚で示される（＝repeat）*/
+  background-size: 200px 100px;
+  /* 指定先を切り取って表示される（１枚表示の時） */
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.div2{
+  background-image: url(../image/beach.jpeg);
+  background-size: 200px 300ox;
+  background-repeat: no-repeat;
+  background-position: right top;
+}

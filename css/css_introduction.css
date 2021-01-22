@@ -1,0 +1,26 @@
+.external-css{
+  color:purple;
+}
+
+h1{
+  color: seagreen;
+}
+
+h1.header1{
+  color: brown;
+}
+/* or use this one 
+.header1{
+  color: brown;
+} */
+
+
+/* for the class */
+.yuki{
+  color: yellow;
+}
+
+/* hor the id */
+#unique-header{
+  color: pink;
+}
